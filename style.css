@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding:20px;
+    font-family:Arial, sans-serif;
+}
+
+/* First Page */
+.page1{
+    border:2px solid blue;
+    background:#eeeeee;
+    padding:15px;
+    font-size:20px;
+}
+
+.brainy-link{
+    color:purple;
+    font-size:30px;
+    font-weight:bold;
+}
+
+/* Second Page */
+.container{
+    width:95%;
+    height:650px;
+    margin:auto;
+    border:2px solid blue;
+    background:#eeeeee;
+    position:relative;
+}
+
+.title{
+    position:absolute;
+    top:10px;
+    left:50%;
+    transform:translateX(-50%);
+    background:blue;
+    color:white;
+    padding:5px 10px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.box{
+    width:360px;
+    padding:15px;
+    background:#eeeeee;
+    font-size:18px;
+    line-height:1.3;
+    position:absolute;
+    box-sizing:border-box;
+}
+
+.orange{
+    border:8px solid orange;
+    top:35px;
+    left:15px;
+}
+
+.green{
+    border:8px solid green;
+    top:35px;
+    right:15px;
+}
+
+.yellow{
+    border:8px solid yellow;
+    bottom:15px;
+    left:15px;
+}
+
+.blue{
+    border:8px solid blue;
+    bottom:15px;
+    right:15px;
+}
